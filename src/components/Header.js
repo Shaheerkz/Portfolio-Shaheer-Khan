@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../components/logo-removebg-preview.png'
+import logo from '../components/logo.png'
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -17,13 +17,13 @@ function Header() {
                         <Link to='/AboutMe'><a class="nav-link " aria-current="page" href="#">About Me</a></Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <Link to='/Projects'><a class="nav-link" href="#">Projects</a></Link>
                     </li>
                     <li class="nav-item">
                         <Link to='/Skills'><a class="nav-link" href="#">Skills</a></Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <Link to='/Contact'><a class="nav-link" href="#">Contact</a></Link>
                     </li>
                 </ul>
             </div>

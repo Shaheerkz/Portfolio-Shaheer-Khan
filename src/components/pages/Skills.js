@@ -52,9 +52,7 @@ function Skills() {
       <div className="container">
         <Header />
         <div className="row skills">
-          
             {skillsData.map((card) => (<Card heading={card.heading} key={card.id} />))}
-          
         </div>
       </div>
     </>

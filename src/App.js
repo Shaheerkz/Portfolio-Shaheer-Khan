@@ -4,6 +4,8 @@ import AboutMe from './components/pages/AboutMe';
 import Skills from './components/pages/Skills.js';
 import Main from './components/Main';
 import { Routes, Route } from "react-router-dom";
+import Projects from './components/pages/Projects.js';
+import Contact from './components/pages/Contact.js';
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
             <Route path='/' index element={<Main />}></Route>
             <Route path='/AboutMe' element={<AboutMe />}></Route>
             <Route path='/Skills' element={<Skills />}></Route>
+            <Route path='/Projects' element={<Projects />}></Route>
+            <Route path='/Contact' element={<Contact/>}></Route>
         </Routes>
     </>
   );
