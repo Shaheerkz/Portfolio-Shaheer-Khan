@@ -1,14 +1,11 @@
 import './App.css';
-
 import AboutMe from './components/pages/AboutMe';
 import Skills from './components/pages/Skills.js';
 import Main from './components/Main';
 import { Routes, Route } from "react-router-dom";
 import Projects from './components/pages/Projects.js';
 import Contact from './components/pages/Contact.js';
-
 function App() {
-
   return (
     <>  
         <Routes>
@@ -20,6 +17,5 @@ function App() {
         </Routes>
     </>
   );
-}
-
+};
 export default App;
